@@ -1,0 +1,66 @@
+body {
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+/* first container */
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Arrange items with space between */
+    
+  }
+  .section {
+    width: 30%; /* Adjust width as needed */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the width */
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+  }
+  .section h2 {
+        font-size: 1.2em;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+
+/* second container */
+    .container1 {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Arrange items with space between */
+  }  
+    .section1 {
+    width: 30%; /* Adjust width as needed */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the width */
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+  }
+  .section1 h2 {
+        font-size: 1.2em;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+
+/*fieldset */
+fieldset {
+  display: inline-block;
+  vertical-align: top; /* Align fieldsets at the top */
+  margin-right: 20px; /* Add space between fieldsets */
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative; /* Make the fieldset a positioned container */
+}
+legend {
+  color: #333; /* Set the color */
+  font-size: 1em; /* Adjust font size as needed */
+  position: absolute; /* Position the legend absolutely */
+  top: -1em; /* Adjust the distance from the top */
+  background-color: white; /* Ensure the legend is not transparent */
+}
+
+/* button */
+.modal-button {
+  position: absolute;
+  
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: 1px solid #888;
+  border-radius: 0 4px 4px 0;
+  color: blue; /* Text color set to blue */
+}
